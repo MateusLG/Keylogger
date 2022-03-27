@@ -16,3 +16,9 @@ You can disguise the program in a .bat, running the program together with anothe
 start (process)
 python main.py
 ```
+You can also open the program hiding the terminal, just remone the filename from "main.py" to "main.pyw", to stop open the taskmaneger and kill the python process.
+```
+@echo off
+start (process)
+python main.pyw
+```
