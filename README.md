@@ -3,7 +3,11 @@ Simple keylogger, uses the pynput library. The program captures pressed keys and
 The program can be disguised using a .bat file.
 
 ## How to use 🔭
-Just run .py and the program captures your keystrokes and records it in the logs file.
+Install the pynput library and run the .py file, after that the program captures your keystrokes and records it in the logs file.
+```python
+pip3 install pynput
+````
+To stop just close the terminal.
 
 ## Tips 👀
 You can disguise the program in a .bat, running the program together with another process, while the terminal is open the Keylogger will work.
